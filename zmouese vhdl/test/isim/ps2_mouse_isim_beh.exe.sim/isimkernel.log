@@ -1,0 +1,28 @@
+Command line:
+   ps2_mouse_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54110
+
+Sat Oct 23 15:27:03 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.67 Meg
+
+ Total Signals          : 47
+ Total Nets             : 122
+ Total Signal Drivers   : 30
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 8
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 506
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5465.24 Meg
+
+Sat Oct 23 15:27:36 2021
+

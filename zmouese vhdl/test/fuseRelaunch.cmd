@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/work/special assig/ADSD/zmouese vhdl/test/ps2_mouse_isim_beh.exe" -prj "D:/work/special assig/ADSD/zmouese vhdl/test/ps2_mouse_beh.prj" "work.ps2_mouse" 

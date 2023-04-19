@@ -1,0 +1,105 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml ps2_mouse.twx ps2_mouse.ncd -o ps2_mouse.twr ps2_mouse.pcf
+
+Design file:              ps2_mouse.ncd
+Physical constraint file: ps2_mouse.pcf
+Device,package,speed:     xc3s500e,vq100,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+ps2_clk     |    0.589(R)|    0.930(R)|clk_BUFGP         |   0.000|
+ps2_data    |    0.730(R)|    0.827(R)|clk_BUFGP         |   0.000|
+reset_n     |    3.340(R)|    0.497(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+--------------+------------+------------------+--------+
+              | clk (edge) |                  | Clock  |
+Destination   |   to PAD   |Internal Clock(s) | Phase  |
+--------------+------------+------------------+--------+
+mouse_data<0> |    8.817(R)|clk_BUFGP         |   0.000|
+mouse_data<1> |    8.513(R)|clk_BUFGP         |   0.000|
+mouse_data<2> |    7.771(R)|clk_BUFGP         |   0.000|
+mouse_data<3> |    7.846(R)|clk_BUFGP         |   0.000|
+mouse_data<4> |    7.042(R)|clk_BUFGP         |   0.000|
+mouse_data<5> |    6.949(R)|clk_BUFGP         |   0.000|
+mouse_data<6> |    7.268(R)|clk_BUFGP         |   0.000|
+mouse_data<7> |    7.290(R)|clk_BUFGP         |   0.000|
+mouse_data<8> |    6.968(R)|clk_BUFGP         |   0.000|
+mouse_data<9> |    6.506(R)|clk_BUFGP         |   0.000|
+mouse_data<10>|    6.945(R)|clk_BUFGP         |   0.000|
+mouse_data<11>|    6.502(R)|clk_BUFGP         |   0.000|
+mouse_data<12>|    6.494(R)|clk_BUFGP         |   0.000|
+mouse_data<13>|    6.730(R)|clk_BUFGP         |   0.000|
+mouse_data<14>|    7.877(R)|clk_BUFGP         |   0.000|
+mouse_data<15>|    7.880(R)|clk_BUFGP         |   0.000|
+mouse_data<16>|    6.959(R)|clk_BUFGP         |   0.000|
+mouse_data<17>|    6.963(R)|clk_BUFGP         |   0.000|
+mouse_data<18>|    7.256(R)|clk_BUFGP         |   0.000|
+mouse_data<19>|    7.204(R)|clk_BUFGP         |   0.000|
+mouse_data<20>|    7.006(R)|clk_BUFGP         |   0.000|
+mouse_data<21>|    6.949(R)|clk_BUFGP         |   0.000|
+mouse_data<22>|    6.991(R)|clk_BUFGP         |   0.000|
+mouse_data<23>|    7.173(R)|clk_BUFGP         |   0.000|
+mouse_data_new|    7.934(R)|clk_BUFGP         |   0.000|
+ps2_clk       |    6.988(R)|clk_BUFGP         |   0.000|
+ps2_data      |    6.764(R)|clk_BUFGP         |   0.000|
+--------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.684|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Oct 23 15:26:44 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

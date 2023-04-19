@@ -1,0 +1,21 @@
+V3 11
+FL "D:/work/special assig/ADSD/zmouese vhdl/debounce.vhd" 2021/10/23.15:23:15 P.20131013
+EN work/debounce 1634982978 \
+      FL "D:/work/special assig/ADSD/zmouese vhdl/debounce.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/debounce/logic 1634982979 \
+      FL "D:/work/special assig/ADSD/zmouese vhdl/debounce.vhd" EN work/debounce 1634982978
+FL "D:/work/special assig/ADSD/zmouese vhdl/ps2_mouse.vhd.vhd" 2021/10/23.15:23:10 P.20131013
+EN work/ps2_mouse 1634982982 \
+      FL "D:/work/special assig/ADSD/zmouese vhdl/ps2_mouse.vhd.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ps2_mouse/logic 1634982983 \
+      FL "D:/work/special assig/ADSD/zmouese vhdl/ps2_mouse.vhd.vhd" \
+      EN work/ps2_mouse 1634982982 CP ps2_transceiver
+FL "D:/work/special assig/ADSD/zmouese vhdl/ps2_transceiver.vhd" 2021/10/23.15:23:13 P.20131013
+EN work/ps2_transceiver 1634982980 \
+      FL "D:/work/special assig/ADSD/zmouese vhdl/ps2_transceiver.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ps2_transceiver/logic 1634982981 \
+      FL "D:/work/special assig/ADSD/zmouese vhdl/ps2_transceiver.vhd" \
+      EN work/ps2_transceiver 1634982980 CP debounce
